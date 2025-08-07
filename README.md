@@ -121,7 +121,7 @@ Ensure all communication channels are encrypted end-to-end where possible:
 | **SimpleXChat**                              | Encrypted messaging & calling                    |
 | **OpenPGP (GnuPG)**                          | Email/file encryption                            |
 | **Mail-in-a-Box or Modoboa**                 | Self-hosted email server & security hardening    |
-| **Bitwarden (Self-Hosted)**                  | Password management                              |
+| **Vaultwarden (Self-Hosted)**                  | Password management                              |
 | **Wazuh**                                    | Open-source SIEM and endpoint security           |
 | **OpenVAS (Greenbone Community Edition)**     | Vulnerability scanning                           |
 | **Renovate**                                 | Automated dependency updates                     |
