@@ -106,7 +106,7 @@ Divide your network into zones to limit the impact of a breach:
 
 Ensure all communication channels are encrypted end-to-end where possible:
 
-- **Signal:** Secure messaging, voice, and video.  
+- **SimpleXChat:** Secure messaging, voice, and video.  
 - **OpenPGP:** Standard for email encryption.
 
 
@@ -118,7 +118,7 @@ Ensure all communication channels are encrypted end-to-end where possible:
 | **Nextcloud**                                | Secure file sharing & collaboration              |
 | **Mattermost**                               | Team communication (chat, channels, file sharing)|
 | **Keycloak/FreeIPA**                         | IAM, SSO, MFA                                    |
-| **Signal**                                    | Encrypted messaging & calling                    |
+| **SimpleXChat**                              | Encrypted messaging & calling                    |
 | **OpenPGP (GnuPG)**                          | Email/file encryption                            |
 | **Mail-in-a-Box or Modoboa**                 | Self-hosted email server & security hardening    |
 | **Bitwarden (Self-Hosted)**                  | Password management                              |
@@ -171,8 +171,8 @@ Ensure all communication channels are encrypted end-to-end where possible:
    - Train staff to use GnuPG for encrypting sensitive emails.  
    - Integrate with Thunderbird (Enigmail or native OpenPGP support) for user-friendliness.
 
-3. **Messaging via Signal:**  
-   - Encourage Signal for sensitive one-to-one and group communications.  
+3. **Messaging via SimpleXChat:**  
+   - Encourage SimpleXChat for sensitive one-to-one and group communications.  
    - Avoid SMS or unencrypted chat tools.
 
 ### Identity and Access Management Setup
@@ -197,8 +197,8 @@ Ensure all communication channels are encrypted end-to-end where possible:
 
 ### Password Management
 
-1. **Bitwarden (Self-Hosted):**  
-   - Deploy a self-hosted Bitwarden server for password storage.  
+1. **Vaultwarden (Bitwarden Written In Rust) (Self-Hosted):**  
+   - Deploy a self-hosted Vaultwarden server for password storage.  
    - Enforce strong, unique passwords and encourage password sharing through secure vaults.  
    - Enable 2FA for password vault access.
 
